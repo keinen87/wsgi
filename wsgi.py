@@ -12,13 +12,4 @@ HTML = """
   </body>
 </html>
 """
-
-def app(environ, start_response):
-    """Simplest possible application object"""
-    status = '200 OK'
-    response_headers = [
-        ('Content-type', 'text/html'),
-    ]
-    start_response(status, response_headers)
-    html_as_bytes = HTML.format(environ["HTTP_X_REAL_IP"]).encode('utf-8')
-    return iter([html_as_bytes])
+print(HTML)
