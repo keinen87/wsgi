@@ -13,7 +13,7 @@ HTML = """
         <div class="d-flex flex-column">
           <h1 class="text text-white align-self-center p-2">Ваш IP-адрес</h1>
         </div>
-      </div>     
+      </div>
       <div class="row bg-faded">
         <div class="col">
           <div class="bg-light card w-100 h-100 card-block justify-content">
@@ -21,7 +21,7 @@ HTML = """
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </body>
 </html>
 """
