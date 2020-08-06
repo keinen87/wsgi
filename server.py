@@ -17,7 +17,7 @@ HTML = """
       <div class="row bg-faded">
         <div class="col">
           <div class="bg-light card w-100 h-100 card-block justify-content">
-            <h1 class="display-1 text text-muted align-self-center p-2">{}</h1>
+            <h1 class="display-1 text text-muted align-self-center p-2">0.0.0.0</h1>
           </div>
         </div>
       </div>
